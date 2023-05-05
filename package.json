@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "vercel-build": "yarn install && cd client && yarn install",
     "preview": "vite preview"
   },
   "dependencies": {
